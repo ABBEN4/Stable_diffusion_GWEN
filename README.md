@@ -23,17 +23,40 @@ The workflow of Midjourney allows for randomness and reroll / variations to gene
 
 ## Workflow example 
 
-**Prompt :**      "Nature and humans in harmony, artwork, painting by Johanesse Dugas"
+### 1. Prompt definition
+   "Photo of a beautiful Canadian landscape during the fall in the style of Erik McRitchie, high dynamic range"
 
-**First generation**
+### 2.First generation
 
-![First Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true)
+The algorythm runs n steps (here 25) and random guidance between 0 and 10 (keeping the high variability low for now) and generated 2 to 8 pictures. Here 4. 
 
-**Second generation from picture 3 **
+![First Generation]([https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/set%201.png?raw=true)
+
+## 3. Second generation from picture 3 - Low variation **
+
+The second generations saves the favourite picture and proceeds to variations which can be set manually or through presets (low, moderate, high, very high variation). Here with low variation preset. The differences are very minutes akin to changes is certain hues, very small shapes or rendering.
+
+![Second Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/lowvariation.png?raw=true)
+
+**Second generation from picture 3 - moderation variation **
+
+Here with moderate variation presets. More marked changes.
+
+![Second Generation bis](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/moderateVariations.png?raw=true)
 
 
-![Second Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/SecondGeneration.png?raw=true)
+**Second generation from picture 3 - Very high variation **
 
+Here with very high variation presets. The picture can be quite different but remains similar as it derives from the same seed.
+
+![Second Generation bis](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/veryHigh.png?raw=true)
+
+
+**Final upscale **
+
+Real ESRGAN not performing as well as expect on certain outputs. Experimenting with other tools required and optimization with realESRGAN necessary possibly through smaller size input (resize to 30% of current output)
+
+![Final](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Scales.png?raw=true)
 
 ## Disclaimer
 The same restrictions and warnings about bias apply to this modified user experience and workflow to the orignial Stable Diffusion which can be found [here](https://huggingface.co/CompVis/stable-diffusion-v1-4>) and real ESRGAN that can be found [here](https://github.com/xinntao/Real-ESRGAN). Please use this tool with caution and responsably. 
