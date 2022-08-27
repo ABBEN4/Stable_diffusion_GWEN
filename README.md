@@ -30,7 +30,7 @@ The workflow of Midjourney allows for randomness and reroll / variations to gene
 
 The algorythm runs n steps (here 25) and random guidance between 0 and 10 (keeping the high variability low for now) and generated 2 to 8 pictures. Here 4. 
 
-![First Generation]([https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/set%201.png?raw=true)
+![First Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/set%201.png?raw=true)
 
 ## 3. Second generation from picture 3 - Low variation
 
