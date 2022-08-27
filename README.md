@@ -32,27 +32,27 @@ The algorythm runs n steps (here 25) and random guidance between 0 and 10 (keepi
 
 ![First Generation]([https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/set%201.png?raw=true)
 
-## 3. Second generation from picture 3 - Low variation **
+## 3. Second generation from picture 3 - Low variation
 
 The second generations saves the favourite picture and proceeds to variations which can be set manually or through presets (low, moderate, high, very high variation). Here with low variation preset. The differences are very minutes akin to changes is certain hues, very small shapes or rendering.
 
 ![Second Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/lowvariation.png?raw=true)
 
-**Second generation from picture 3 - moderation variation **
+## 3.Second generation from picture 3 - moderation variation
 
 Here with moderate variation presets. More marked changes.
 
 ![Second Generation bis](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/moderateVariations.png?raw=true)
 
 
-**Second generation from picture 3 - Very high variation **
+## 3.Second generation from picture 3 - Very high variation
 
 Here with very high variation presets. The picture can be quite different but remains similar as it derives from the same seed.
 
 ![Second Generation bis](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/veryHigh.png?raw=true)
 
 
-**Final upscale **
+## 4.Final upscale
 
 Real ESRGAN not performing as well as expect on certain outputs. Experimenting with other tools required and optimization with realESRGAN necessary possibly through smaller size input (resize to 30% of current output)
 
