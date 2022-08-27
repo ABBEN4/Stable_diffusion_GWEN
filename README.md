@@ -3,24 +3,33 @@ A "human in the loop" workflow for Stable Diffusion comparable to the Midjourney
 
 
 ## Sources
-Stable diffusion : https://huggingface.co/CompVis/stable-diffusion-v1-4
-Stable diffusion demo : https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb
+[Stable diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4)
+[Stable diffusion demo](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb)
 
-Real ESRGAN : https://github.com/xinntao/Real-ESRGAN
-Real-ESRGAN demo colab : https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing
+[Real ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+[Real-ESRGAN demo colab](https://colab.research.google.com/drive/1k2Zod6kSHEvraybHl50Lys0LerhyTMCo?usp=sharing)
 
 ## Modifications
 
 - Setting up a userfriendly version of the file with colab froms as GUI
-- Setting up a three step image generation process to select the prefered picture and propose variations based on random Stable Diffusion parameters
-- Linking the whole process with Real-ESRGAN 
+- Setting up a three step image generation process allowing the selection of the prefered picture and proposing variations based on random Stable Diffusion parameters settings
+- Solving RAM saturation to ensure the generation process
+- Linking the whole process with Real-ESRGAN to allow for endpoint upscaling
+
 
 ## Why this modification
 
-The workflow of Midjourney allows for randomness and paramers to generate alternatives to the prefered picture which can lead to serendipitiously generated pleasing productions.  So far this random slight variation part is not available (to my knowledge) in Stable diffusion and so I setup this to improve the workflow. Adding an implementation of Real-ESRGAN to complete the process. 
+The workflow of Midjourney allows for randomness and reroll / variations to generate alternatives of the prefered picture which can lead to serendipitiously generated pleasing productions.  So far this random slight variation part is not available (to my knowledge) in Stable diffusion and so I setup this to propose an open alternative to this workflow. I added an implementation of Real-ESRGAN to complete the process with upscaling. Moreover, it seems important to provide a way to generate pictures without constant human supervision to avoid human timeloss. Through the proposed process, one can generate multiple pictures and keep only those fitting the criteria rather than repeating generation. It relies on automated captation of the seed and generation parameters to later-on propose slight or large variations based on user choice leading to a Midjourney-like experience.
 
 ## Disclaimer
-The same restrictions and warnings apply to this modified user experience ad to the orignial which can be found here : https://huggingface.co/CompVis/stable-diffusion-v1-4> 
+The same restrictions and warnings about bias apply to this modified user experience and workflow to the orignial Stable Diffusion which can be found [here](https://huggingface.co/CompVis/stable-diffusion-v1-4>) and real ESRGAN that can be found [here](https://github.com/xinntao/Real-ESRGAN). Please use this tool with caution and responsably. 
 
-## Colab file
+## File
+
+The file available here was updated on : 
+
+## Notes
+
+Why GWEN ? Seemed to the logical counter part to MJ. 
+
 
