@@ -28,7 +28,7 @@ The workflow of Midjourney allows for randomness and reroll / variations to gene
 
 ### 2.First generation
 
-The algorythm runs n steps (here 25) and random guidance between 0 and 10 (keeping the high variability low for now) and generated 2 to 8 pictures. Here 4. 
+The algorythm runs n steps (here 25) and random guidance between 0 and 10 (keeping the guidance variability low for now) and generated 2 to 8 pictures. Here 4 different pictures. The variations are marked and random in seed and guidance. We can imagine increasing higher the guidance but through my tests, it seems above 20, it turns into random noise and higher risk of flagged content.
 
 ![First Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/set%201.png?raw=true)
 
