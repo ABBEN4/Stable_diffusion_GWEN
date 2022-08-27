@@ -17,5 +17,5 @@
 
   ## 3. Completed Steps
     3.A. Implementing ESRGAN in the workflow
-    3.B. Setting the seend and setting collection workflow for the three step 
+    3.B. Setting the seed and settings collection workflow for the three step process
     3.C. Working-out the variation process and setting it up in the workflow
