@@ -19,3 +19,4 @@
     3.A. Implementing ESRGAN in the workflow
     3.B. Setting the seed and settings collection workflow for the three step process
     3.C. Working-out the variation process and setting it up in the workflow
+    3.D. Adding randomness within the first generation processing including size/proportions (whitin a computable range), number of inference steps     (q/quality) and guidance (g/guid) values. 
