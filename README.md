@@ -27,6 +27,12 @@ The workflow of Midjourney allows for randomness and reroll / variations to gene
 
 **First generation**
 
+![First Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true)
+
+**Second generation**
+
+
+![Second Generation](https://github.com/ABBEN4/Stable_diffusion_GWEN/blob/main/pictures/Image-1.png?raw=true)
 
 
 ## Disclaimer
